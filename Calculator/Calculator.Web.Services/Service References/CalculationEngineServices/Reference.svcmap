@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f6510cc8-ba90-46af-8197-1c2012811f4f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58146/CalculationEngine.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculationEngine.xsd" MetadataType="Schema" ID="fc2df756-9ffd-4281-b5dd-8a03352f03b0" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?xsd=xsd0" />
+    <MetadataFile FileName="CalculationEngine1.xsd" MetadataType="Schema" ID="c5733577-fc17-465e-b0ca-81f6a14795b4" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?xsd=xsd1" />
+    <MetadataFile FileName="CalculationEngine2.xsd" MetadataType="Schema" ID="367d7a2d-7993-446d-a326-c2a47b223cbc" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?xsd=xsd2" />
+    <MetadataFile FileName="CalculationEngine3.xsd" MetadataType="Schema" ID="cfff3551-0dec-443b-98a2-89bbed0cfee0" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?xsd=xsd3" />
+    <MetadataFile FileName="CalculationEngine.disco" MetadataType="Disco" ID="47f10c67-85cf-48c1-8cd4-4ac884af48d3" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?disco" />
+    <MetadataFile FileName="CalculationEngine.wsdl" MetadataType="Wsdl" ID="eb4eee42-f2e7-4ac9-b9d7-340154941c4a" SourceId="1" SourceUrl="http://localhost:58146/CalculationEngine.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

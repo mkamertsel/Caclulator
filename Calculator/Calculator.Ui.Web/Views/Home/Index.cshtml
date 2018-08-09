@@ -1,0 +1,20 @@
+﻿@model Calculator.Ui.Web.Models.HomeViewModel
+@{
+    ViewBag.Title = "Calculator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Calculator</h2>
+<main>
+    @using (Html.BeginForm("Index", "Home"))
+    {
+        <input type="text" name="firstNumber" placeholder="12345" value="@Model.FirstNumberString"/>
+        <input type="text" name="secondNumber" placeholder="54321" value="@Model.SecondNumberString"/>
+        <input type="submit" name="addition" value="+"/>
+        <input type="submit" name="multiplication" value="*"/>
+        <input type="submit" name="division" value="/"/>
+        <input type="submit" name="subtraction" value="-"/>
+    }
+</main>
+<strong>Result:</strong>
+<input type="text" readonly value="@Model.Result"/>

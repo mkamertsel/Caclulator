@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e40b6cd2-4829-4028-a9d9-43b09e505308" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58146/CalculationHelper.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculationHelper.disco" MetadataType="Disco" ID="452d202e-4148-4f14-a88f-ea4076c4cb42" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?disco" />
+    <MetadataFile FileName="CalculationHelper.xsd" MetadataType="Schema" ID="304382aa-6d73-4f30-b2c3-fb7c5383ad20" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?xsd=xsd3" />
+    <MetadataFile FileName="CalculationHelper1.xsd" MetadataType="Schema" ID="59a72d04-b33d-44a7-afd1-823ecd9921ff" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?xsd=xsd2" />
+    <MetadataFile FileName="CalculationHelper2.xsd" MetadataType="Schema" ID="e95472c8-7940-4fcc-959b-64385bf077bd" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?xsd=xsd1" />
+    <MetadataFile FileName="CalculationHelper3.xsd" MetadataType="Schema" ID="f1938241-84f5-4f31-bdda-5a5fa0b78429" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?xsd=xsd0" />
+    <MetadataFile FileName="CalculationHelper.wsdl" MetadataType="Wsdl" ID="20cb60cf-0cfd-4168-8f1a-4a5ec9ae64bf" SourceId="1" SourceUrl="http://localhost:58146/CalculationHelper.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
